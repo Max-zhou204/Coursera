@@ -80,11 +80,11 @@ p {
     top: 0;
     right: 0;
     font-size: 125%;
-    font-weight: bold;  /* Corrected from font-style to font-weight for bold text */
+    font-weight: bold; 
     box-sizing: border-box;
     border-style: solid;
     border-color: black;
-    border-width: 0px 0 2px 2px; /* Top, right, bottom, left */
+    border-width: 0px 0 2px 2px;
     display: inline-block;
 }
 
@@ -93,3 +93,5 @@ p {
 	box-sizing: border-box;
 	padding-top: 40px;
 }
+
+
