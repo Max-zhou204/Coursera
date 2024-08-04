@@ -1,0 +1,135 @@
+h1 {
+	text-align: center;
+	padding-bottom: 10px;
+	margin-top: -10px;
+	font-family: "Great Vibes", cursive;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+body {
+	background-color: #fdffdb;
+}
+
+header {
+	position: relative;
+	background-color: #adffc7;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 40px;
+}
+
+nav {
+	background-color: #adffc7;
+	display: inline-block;
+	width: 85%;
+}
+
+header img {
+	position: relative;
+	display: inline-block;
+	width: 10%;
+	top: 60px;
+}
+
+main {
+	margin-bottom: 20px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+footer {
+	background-color: #e6fff4;
+	text-align: center;
+	padding: 5px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+li {
+	display: inline-block;
+	margin: 5px;
+	background-color: #fdffdb;
+	padding: 5px;
+	border: 2px solid black;
+	font-size: 90%;
+	margin-bottom: 20px;
+}
+
+li a {
+	text-decoration: none; 
+	font-weight: bold;
+}
+
+.current {
+	background-color: #ffd1a1;
+}
+
+p {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	line-height: 120%;
+	font-size: 110%;
+}
+
+main p {
+	font-family: 'Comic Sans MS', Arial, sans-serif;
+}
+
+div.twoColumns img {
+	margin-left: 3%;
+	margin-right: 3%;
+	width: 40%;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+div.twoColumns {
+	width: 86%;
+	margin-left: 7%;
+	margin-right: 7%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+
+div.flexible img {
+	margin-left: 15px;
+	margin-right: 15px;
+	width: 200px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+div.flexible {
+	width: 86%;
+	margin-left: 7%;
+	margin-right: 7%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+ul {
+	padding: 0;
+	display: flex;
+	justify-content: space-evenly;
+	position: relative;
+	top: -15px;
+}
+
+header a[href="#main_content"] {
+	background-color: #fdffdb;
+	padding: 5px;
+	border: 2px solid black;
+	text-decoration: none; 
+	font-weight: bold;
+	position: relative;
+	top: 6px;
+}
