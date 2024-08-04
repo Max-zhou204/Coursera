@@ -40,6 +40,7 @@ ul {
 	justify-content: space-evenly;
 	position: relative;
 	top: -15px;
+	list-style-type: auto;
 }
 
 li {
@@ -100,6 +101,8 @@ div.twoColumns {
 	display: grid;
 	grid-template-columns: 46% 46%;
 	justify-content: center;
+	row-gap: initial;
+	align-items: center;
 }
 
 div.twoColumns img {
