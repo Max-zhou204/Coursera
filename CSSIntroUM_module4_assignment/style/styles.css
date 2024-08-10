@@ -215,8 +215,23 @@ main section h2 + p {
 }
 
 .grid div:hover {
-    border: 2px solid rgba(255,255,255,1);
     transform: scale(1.1);
+}
+
+.grid > div:nth-child(even), .flex > div:nth-child(even) {
+    border: 2px solid rgba(51,204,255,0.3);
+}
+
+.grid > div:nth-child(even):hover, .flex > div:nth-child(even):hover {
+    border: 2px solid rgba(51,204,255,1);
+}
+
+.grid > div:nth-child(odd), .flex > div:nth-child(odd) {
+    border: 2px solid rgba(102,255,153,0.3);
+}
+
+.grid > div:nth-child(odd):hover, .flex > div:nth-child(odd):hover {
+    border: 2px solid rgba(102,255,153,1);
 }
 
 .flex {
@@ -266,4 +281,31 @@ main section h2 + p {
 #intro {
     padding: 10px;
     border-radius: 5%;
+}
+
+.skip-link {
+    position: absolute;
+    left: -1000px;
+    top: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: -1;
+    background-color: transparent;
+    color: transparent;
+    border: none;
+}
+
+.skip-link:focus {
+    left: 0px;
+    top: 55px;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    z-index: 1000;
+    background-color: #FFF; /* Add a contrasting background */
+    color: #000; /* Text color */
+    padding: 10px ;
+    text-decoration: none;
+    border: 2px solid #000;
 }
