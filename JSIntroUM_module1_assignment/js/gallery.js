@@ -10,11 +10,10 @@ function upDate(previewPic){
     to the alt text of the preview image 
     */
     document.getElementById("image").innerHTML = previewPic.getAttribute("alt");
-  
 	}
 
-	function unDo(){
-     /* In this function you should 
+function unDo(){
+/* In this function you should 
     1) Update the url for the background image of the div with the id = "image" 
     back to the orginal-image.  You can use the css code to see what that original URL was
     */
