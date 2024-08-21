@@ -85,7 +85,7 @@ figure figcaption {
 
 @media (min-width: 992px) {
     .grid {
-        grid-template-columns: repeat(2, 1fr); /* Default three columns */
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
     }
     .grid figure:nth-child(3n) {
         grid-column: 1 / -1; /* Makes every third figure span all columns */
@@ -114,6 +114,6 @@ figure figcaption {
 
 @media (prefers-reduced-motion: reduce) {
     html {
-        animation: auto;
+        scroll-behavior: auto;
     }
 }
