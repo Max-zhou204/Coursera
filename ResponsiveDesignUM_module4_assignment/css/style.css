@@ -1,0 +1,119 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #dedede;
+    padding: 5px;
+    margin: 15px;
+    font-size: 25px;
+    font-family:Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family:Arial, sans-serif;
+    font-size: 1.6em;
+}
+
+h2{
+    text-align:center;
+  }
+
+li{
+    margin-top: 20px;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+img{
+    width: 100%;
+    height: 320px;
+    margin: 0;
+    display: block;
+    object-fit: cover; 
+    object-position: center;
+}
+
+figure {
+    position: relative;
+    border: 5px solid #0fb4d1;
+    border-radius: 10%;
+    overflow: hidden;
+    margin: 20px;
+}
+
+figure figcaption {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    margin: 0;
+    font-size: 0.7em;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.label{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media (min-width: 772px) {
+    .grid {
+        grid-template-columns: 45% 45%;
+        justify-content: space-evenly;
+    }
+    .grid figure:last-child {
+        grid-column: 1 / -1; /* Makes the last figure span all columns */
+    }
+    figure {
+        display: inline-block;
+        border-radius: 100%;
+    }
+    figure figcaption {
+        font-size: 0.55em;
+    }
+}
+
+@media (min-width: 992px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr); /* Default three columns */
+    }
+    .grid figure:nth-child(3n) {
+        grid-column: 1 / -1; /* Makes every third figure span all columns */
+    }
+    figure {
+        display: inline-block;
+        border-radius: 0;
+    }
+    img {
+        height: 500px;
+    }
+    figure figcaption {
+        font-size: 0.9em;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    figure figcaption {
+        color: #fcba03;
+        background-color: #2e2d29;
+    }
+    figure {
+        border: 5px solid #2e2d29;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        animation: auto;
+    }
+}
