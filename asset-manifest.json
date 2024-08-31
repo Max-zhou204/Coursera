@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Coursera/ReactBasicsMeta/CalculatorApp/static/css/main.4ee91bd1.css",
+    "main.js": "/Coursera/ReactBasicsMeta/CalculatorApp/static/js/main.dae61168.js",
+    "index.html": "/Coursera/ReactBasicsMeta/CalculatorApp/index.html",
+    "main.4ee91bd1.css.map": "/Coursera/ReactBasicsMeta/CalculatorApp/static/css/main.4ee91bd1.css.map",
+    "main.dae61168.js.map": "/Coursera/ReactBasicsMeta/CalculatorApp/static/js/main.dae61168.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ee91bd1.css",
+    "static/js/main.dae61168.js"
+  ]
+}
