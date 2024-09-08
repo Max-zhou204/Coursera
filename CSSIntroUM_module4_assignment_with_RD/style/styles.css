@@ -1,0 +1,317 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", Arial, sans-serif;
+}
+
+body {
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+    url('../images/bg.jpg');
+    color: white;
+    margin: 0px;
+}
+
+main {
+	margin: 50px 10px 10px 10px;
+}
+
+#the2 div {                 
+	    margin-top: 20px;           
+	    box-sizing: border-box;  
+	}
+
+.navbar {
+    position: fixed;   
+    top: 0;  
+    width: 100%;       
+    background-color: #333; 
+    color: white;
+    z-index: 1000; 
+}
+
+.navbar ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;     
+}
+
+.navbar li {
+    float: left;    
+    width: 33.3%;      
+}
+
+.navbar li a {
+    display: block;       
+    text-align: center;    
+    padding: 14px 16px;   
+    text-decoration: none; 
+    color: white;    
+    font-weight: bold;
+    border: 2px solid rgba(255,255,255,0);
+}
+
+.navbar li a:hover {
+    border: 2px solid rgba(255,255,255,1);
+}
+
+.current {
+	background: linear-gradient(to right, #1fdbb6, #106de6);
+}
+
+footer {
+    background-color: #edf4ff;
+    margin-top: 40px;
+    padding: 15px;
+    width: 100%;
+}
+
+footer p {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 110%;
+    color: black;
+    width: 90%;
+}
+
+img {
+  object-fit: cover;
+}
+
+main section {
+    background-color: rgba(102, 102, 102, 0.55); 
+    border-radius: 2%;
+}
+
+.company {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px 5px;
+}
+
+.logo {
+    display: inline-block;
+    width: 15%;  
+    height: auto;  
+    object-fit: cover;
+    border-radius: 10%;
+    vertical-align: middle;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease;
+}
+
+.logo:hover {
+    border: 3px solid rgba(8,96,168,1);
+    transform: scale(1.1);
+}
+
+.logo-sm {
+    display: inline-block;
+    width: 50px; 
+    height: auto;  
+    object-fit: cover;
+    border-radius: 10%;
+    vertical-align: middle;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease; 
+}
+
+.logo-sm:hover {
+    border: 3px solid rgba(8,96,168,1);
+    transform: scale(1.1);
+}
+
+#home {
+    text-align: center;
+    padding: 20px;
+    font-size: 200%;
+    position: relative;
+    top: 25px;
+    margin-bottom: 40px;
+}
+
+#the2 div .photo {
+    width: 100%;
+    padding: 0;
+    background: none;
+}
+
+.photo img {
+    display: inline-block;
+    width: 48%;               
+    margin: 0px;           
+    padding: 10px;         
+    box-sizing: border-box;  
+    height: auto;
+    background: none;
+    border-radius: 2%;
+    box-sizing: border-box;
+    border: 2px solid rgba(255,255,255,0);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease; 
+}
+
+.photo img:hover {
+    border: 2px solid rgba(255,255,255,1);
+    transform: scale(1.05);
+}
+
+h2 {
+    padding: 10px;
+    color: #33bbff;
+    margin: 0px;
+    font-size: 150%;
+}
+
+main p {
+    padding: 0px 10px;
+    margin-top: 0px;
+}
+
+main section h2 + p {
+    position: relative;
+    left: 5%;
+    width: 90%;
+}
+
+.grid {
+    background: none;
+}
+
+.grid div p {
+    font-size: 90%;
+    margin-bottom: 5px;
+}
+
+.grid div img {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+}
+
+.grid div {
+    margin-top: 10px;
+    background-color: rgba(102, 102, 102, 0.55); 
+    border-radius: 2%;
+    box-sizing: border-box;
+    border: 2px solid rgba(255,255,255,0);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease; 
+}
+
+.grid div:hover {
+    transform: scale(1.1);
+}
+
+.grid > div:nth-child(even), .flex > div:nth-child(even) {
+    border: 2px solid rgba(51,204,255,0.3);
+}
+
+.grid > div:nth-child(even):hover, .flex > div:nth-child(even):hover {
+    border: 2px solid rgba(51,204,255,1);
+}
+
+.grid > div:nth-child(odd), .flex > div:nth-child(odd) {
+    border: 2px solid rgba(102,255,153,0.3);
+}
+
+.grid > div:nth-child(odd):hover, .flex > div:nth-child(odd):hover {
+    border: 2px solid rgba(102,255,153,1);
+}
+
+.companyContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    padding: 0px;
+}
+
+#intro {
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.skip-link {
+    position: absolute;
+    left: -1000px;
+    top: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: -1;
+    background-color: transparent;
+    color: transparent;
+    border: none;
+}
+
+.skip-link:focus {
+    left: 0px;
+    top: 55px;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    z-index: 1000;
+    background-color: #FFF; /* Add a contrasting background */
+    color: #000; /* Text color */
+    padding: 10px ;
+    text-decoration: none;
+    border: 2px solid #000;
+}
+
+@media (min-width: 576px) {
+	#the2 {
+	    display: grid;           
+	    grid-template-columns: 45% 45%;
+	    justify-content: space-evenly;
+	    margin-top: 20px;
+	}
+
+	#the2 div {                 
+	    padding: 10px;           
+	    box-sizing: border-box;  
+	}
+
+	.grid {
+		display: grid;
+	    grid-template-columns: 45% 45%;
+	    grid-row-gap: 25px;
+	    justify-content: space-evenly;
+	}
+}
+
+@media (min-width: 992px) {
+	.grid {
+		display: grid;
+	    grid-template-columns: 30% 30% 30%;
+	    grid-row-gap: 25px;
+	    justify-content: space-evenly;
+	}
+}
+
+@media (min-width: 1200px) {
+	.grid{
+		display: grid;
+	    grid-template-columns: 22.5% 22.5% 22.5% 22.5%;
+	    grid-row-gap: 25px;
+	    justify-content: space-evenly;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		color: rgba(220, 223, 227, 1);
+	}
+
+	.grid div {
+		background-color: rgba(38, 38, 38, 0.55);
+	}
+
+	main section {
+		background-color: rgba(38, 38, 38, 0.55);
+	}
+}

@@ -1,0 +1,82 @@
+{
+    "name": "Airbus",
+    "companyLogo": {
+      "imageKey": "airbusLogo",
+      "altText": "Airbus Logo"
+    },
+    "gallery": [
+      [
+        "airbusHq",
+        "Headquater of Airbus"
+      ],
+      [
+        "airbusFleet",
+        "Airbus fleet"
+      ],
+      [
+        "airbusFactory",
+        "Factory"
+      ],
+      [
+        "airbusFactory2",
+        "Factory2"
+      ]
+    ],
+    "introduction": "Airbus SE, established in 1970, is a European multinational aerospace corporation that stands as one of the top aircraft manufacturers worldwide. Headquartered in Leiden, Netherlands, and with its primary civil aerospace business division located in Toulouse, France, Airbus offers a wide range of passenger airliners from the single-aisle A220 to the double-decker A380. The company extends its reach beyond commercial aircraft, engaging in defense and space sectors through its AD and S Division. Known for its pioneering spirit, Airbus is committed to innovation, safety, and environmental sustainability, continually seeking to revolutionize the aerospace industry.",
+    "aircraftsData": [
+      {
+        "name": "Airbus A300",
+        "description": "The Airbus A300, launched in 1974, was the first twin-engine wide-body jetliner from Airbus. It marked a significant milestone in commercial aviation, featuring a range that made transcontinental routes economically viable. The A300 became popular for its fuel efficiency and lower operating costs, setting the stage for future innovations in the twinjet sector.",
+        "altText": "Airbus A300-600",
+        "imageKey": "A300"
+      },
+      {
+        "name": "Airbus A310",
+        "description": "Introduced in 1983, the Airbus A310 was a pioneering aircraft for introducing digital fly-by-wire technology in commercial aviation. Its shorter fuselage and advanced avionics suite allowed airlines to operate a wide-body aircraft in less densely traveled routes, combining efficiency with capacity in an era dominated by larger jets.",
+        "altText": "Airbus A310-300",
+        "imageKey": "A310"
+      },
+      {
+        "name": "Airbus A320",
+        "description": "The Airbus A320, introduced in 1988, revolutionized the single-aisle aircraft market with its fly-by-wire system, enhancing safety and fuel efficiency. It became the benchmark for modern passenger jets, featuring a versatile cabin that could be quickly reconfigured for different seating demands. The A320 family has been among the best-selling commercial aircraft.",
+        "altText": "Airbus A320neo",
+        "imageKey": "A320"
+      },
+      {
+        "name": "Airbus A330",
+        "description": "Since its debut in 1994, the Airbus A330 has been known for its ability to serve medium- to long-range routes with exceptional efficiency. Its design flexibility enabled it to operate both as a passenger and freight aircraft, with a spacious cabin and a range that meets various market demands without compromising comfort.",
+        "altText": "Airbus A330-900",
+        "imageKey": "A330"
+      },
+      {
+        "name": "Airbus A340",
+        "description": "The Airbus A340, introduced in 1993, was developed for long-haul flights, featuring four engines for extended range operations. It was celebrated for its quiet, comfortable cabin and its ability to connect distant cities directly. Despite being overtaken by more fuel-efficient twinjets, the A340 made a mark with its reliability and performance.",
+        "altText": "Airbus A340-600",
+        "imageKey": "A340"
+      },
+      {
+        "name": "Airbus A350",
+        "description": "The Airbus A350, which entered service in 2015, represents the pinnacle of aerospace innovation with its carbon composite structure and advanced aerodynamics. This aircraft delivers unparalleled levels of fuel efficiency and passenger comfort, making it highly competitive in the long-range market segment.",
+        "altText": "Airbus A350-900",
+        "imageKey": "A350"
+      },
+      {
+        "name": "Airbus A380",
+        "description": "The Airbus A380, the world's largest passenger airliner, took its maiden flight in 2007. Designed to challenge Boeing's monopoly in the large-aircraft market, the A380 boasts two full-length passenger levels and a capacity that had never been seen before, reducing the cost per seat and leaving a lasting impact on mega-hubs globally.",
+        "altText": "Airbus A380-800",
+        "imageKey": "A380"
+      },
+      {
+        "name": "Airbus A400M",
+        "description": "The Airbus A400M Atlas, which debuted in 2013, is a multi-role military transport aircraft combining the capability to carry heavy loads with the ability to land on rudimentary runways. Serving European air forces and beyond, it has become an essential part of military logistics, humanitarian missions, and disaster response efforts.",
+        "altText": "Airbus A400M",
+        "imageKey": "A400M"
+      },
+      {
+        "name": "Airbus C295",
+        "description": "Introduced in the early 2000s, the Airbus C295 is a tactical airlifter known for its robustness and versatility in various military and humanitarian missions. Its ability to operate in austere environments makes it particularly valuable for operations that require quick response times and efficient cargo handling.",
+        "altText": "Airbus C295",
+        "imageKey": "C295"
+      }
+    ]
+  }

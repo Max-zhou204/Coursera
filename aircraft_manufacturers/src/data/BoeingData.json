@@ -1,0 +1,88 @@
+{
+    "name": "Boeing",
+    "companyLogo": {
+      "imageKey": "boeingLogo",
+      "altText": "Boeing Logo"
+    },
+    "gallery": [
+      [
+        "boeingHq",
+        "Headquater of Boeing"
+      ],
+      [
+        "boeingFleet",
+        "Boeing fleet"
+      ],
+      [
+        "boeingFactory",
+        "Factory"
+      ],
+      [
+        "boeingFactory2",
+        "Factory2"
+      ]
+    ],
+    "introduction": "Boeing, established in 1916 by William E. Boeing in Seattle, Washington, is one of the leading aerospace companies in the world. It designs, manufactures, and sells airplanes, rotorcraft, rockets, satellites, and telecommunications equipment globally. Notably prominent in the commercial airline sector, Boeing is renowned for its extensive range of passenger planes, including the iconic 747. The company also plays a significant role in defense, space, and security with products like military aircraft and space systems. As an industry pioneer, Boeing continually pushes the envelope in aviation technology and innovation, striving to enhance air travel and expand human presence in the space.",
+    "aircraftsData": [
+      {
+        "name": "Boeing B707",
+        "description": "Launched in 1958, the Boeing 707 is the jetliner credited with ushering in the jet age. Its introduction transformed commercial aviation by reducing travel time and making air travel accessible to the masses. Its performance and economics set high standards and helped Boeing to establish a leading position in the global aviation market.",
+        "altText": "Boeing B707-300",
+        "imageKey": "B707"
+      },
+      {
+        "name": "Boeing B717",
+        "description": "The Boeing 717, known initially as the MD-95, was introduced in 1999 as a modern and efficient jet tailored for the short-haul market. Its design reflects a focus on reducing operational costs and maximizing reliability, traits that have endeared it to airlines operating regional routes with high-frequency.",
+        "altText": "Boeing B717-200",
+        "imageKey": "B717"
+      },
+      {
+        "name": "Boeing B727",
+        "description": "Introduced in 1963, the Boeing 727 was designed for short and medium-haul routes. Its three-engine configuration allowed it to operate from shorter runways and at airports with stringent noise restrictions, making it one of the most versatile and best-selling jets of its time.",
+        "altText": "Boeing B727-200",
+        "imageKey": "B727"
+      },
+      {
+        "name": "Boeing B737",
+        "description": "Since its first flight in 1968, the Boeing 737 has become the world's best-selling commercial jetliner. Known for its reliability and efficiency, the 737 continues to evolve with new innovations and remains a cornerstone of many airlines' fleets globally, serving short to medium-range routes.",
+        "altText": "Boeing B737-800",
+        "imageKey": "B737"
+      },
+      {
+        "name": "Boeing B747",
+        "description": "The Boeing 747, also known as the 'Queen of the Skies,' revolutionized air travel with its debut in 1970. As the first wide-body airplane ever produced, it was renowned for its luxurious and spacious interior, significantly enhancing passenger comfort on long-haul international flights.",
+        "altText": "Boeing B747-400",
+        "imageKey": "B747"
+      },
+      {
+        "name": "Boeing B757",
+        "description": "The Boeing 757, launched in 1982, combined high performance with fuel efficiency to serve medium-haul routes. Its narrow-body design and powerful engines allowed airlines to use it on both domestic and transcontinental flights, proving its versatility across various market demands.",
+        "altText": "Boeing B757-200",
+        "imageKey": "B757"
+      },
+      {
+        "name": "Boeing B767",
+        "description": "The Boeing 767, introduced in 1982, was designed to meet the needs of airlines for a wide-body, twin-engine jet capable of serving medium- to long-haul routes. Its efficiency and passenger-friendly layout have made it a favorite for both commercial airlines and cargo transporters alike.",
+        "altText": "Boeing B767-300",
+        "imageKey": "B767"
+      },
+      {
+        "name": "Boeing B777",
+        "description": "Since its entry into service in 1995, the Boeing 777 has been celebrated for its large capacity and range, advanced technology, and high efficiency. It quickly became the aircraft of choice for long-haul international travel, setting new standards for twinjet transport.",
+        "altText": "Boeing B777-300",
+        "imageKey": "B777"
+      },
+      {
+        "name": "Boeing B787",
+        "description": "The Boeing 787 Dreamliner, first flown in 2011, represents a leap forward in aircraft design with its use of lightweight composites. Its advanced systems and passenger-oriented features provide unmatched fuel efficiency and environmental benefits, along with enhanced comfort and well-being on board.",
+        "altText": "Boeing B787-9",
+        "imageKey": "B787"
+      },
+      {
+        "name": "Boeing C-17 Globemaster III",
+        "description": "The Boeing C-17 Globemaster III, introduced in the 1990s, is a key asset for strategic airlift missions, capable of transporting large payloads across intercontinental distances. It supports military, humanitarian, and peacekeeping missions, offering high flexibility and capability in challenging environments.",
+        "altText": "Boeing C-17 Globemaster",
+        "imageKey": "C17"
+      }
+    ]
+  }
