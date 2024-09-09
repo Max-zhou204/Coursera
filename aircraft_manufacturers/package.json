@@ -1,5 +1,6 @@
 {
   "name": "aircraft_manufacturers",
+  "homepage": "https://max-zhou204.github.io/Coursera/AircraftManufacturers",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
