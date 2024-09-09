@@ -1,12 +1,11 @@
-// src/App.js
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import { ThemeProvider, useTheme } from './components/ThemeContext.js';
 import './App.css';
 import Navbar from "./components/Navbar.js";
 import Manufacturer from "./components/Manufacturer.js";
 import Homepage from "./components/Homepage.js";
 import {Airbus, Boeing} from "./components/ManufacturersData.js";
-import { Routes, Route} from "react-router-dom";
 import Footer from "./components/Footer.js";
 
 function ThemeToggleButton() {
@@ -25,9 +24,9 @@ function App() {
                 <Navbar />
                 <ThemeToggleButton/>
                 <Routes>
-                    <Route path="/" element={<Homepage />}/>
-                    <Route path="/Airbus" element={<Manufacturer company={Airbus} />}/>
-                    <Route path="/Boeing" element={<Manufacturer company={Boeing} />}/>
+                    <Route path="/" element={<Homepage />} />
+                    <Route path="/Airbus" element={<Manufacturer company={Airbus} />} />
+                    <Route path="/Boeing" element={<Manufacturer company={Boeing} />} />
                 </Routes>
                 <Footer />
             </div>
